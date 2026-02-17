@@ -103,3 +103,5 @@ InitTestScene*.unity*
 .plastic/
 build*
 .vscode/
+*ButDontShipItWithYourGame/
+*.zip

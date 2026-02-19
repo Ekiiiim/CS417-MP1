@@ -107,4 +107,4 @@ build*
 *.zip
 
 # To resolve Windows/Mac conflict
-./Assets/Keypad
+Assets/Keypad

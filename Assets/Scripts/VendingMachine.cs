@@ -19,7 +19,7 @@ public class VendingMachine : MonoBehaviour
 
     public void DispenseItem()
     {
-        UnityEngine.Debug.Log("test");
-        Instantiate(keyPrefab, keySpawn.transform.position, Quaternion.identity);
+        keyPrefab.transform.position = keySpawn.transform.position;
+        keyPrefab.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
     }
 }

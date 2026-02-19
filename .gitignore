@@ -105,3 +105,6 @@ build*
 .vscode/
 *ButDontShipItWithYourGame/
 *.zip
+
+# To resolve Windows/Mac conflict
+./Assets/Keypad
